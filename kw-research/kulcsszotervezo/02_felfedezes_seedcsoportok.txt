@@ -1,0 +1,24 @@
+# 1. csoport – másold be egyben (max. 10 kifejezés)
+horgászbot, pontyozó bot, feeder bot, method feeder bot, picker bot, pergető bot, match bot, bojlis bot, teleszkópos bot, rakós bot
+
+# 2. csoport – másold be egyben (max. 10 kifejezés)
+harcsázó bot, horgászbot szett, horgász orsó, nyeletőfékes orsó, pontyozó orsó, feeder orsó, pergető orsó, elsőfékes orsó, horgászzsinór, fonott zsinór
+
+# 3. csoport – másold be egyben (max. 10 kifejezés)
+monofil zsinór, fluorocarbon zsinór, kötött előke, horgász horog, pontyozó horog, etetőanyag, feeder etetőanyag, method mix, bojli, pop up bojli
+
+# 4. csoport – másold be egyben (max. 10 kifejezés)
+wafter csali, etető pellet, method pellet, horgász aroma, horgász csali, horgász kukorica, műcsali, wobbler, gumihal, villantó
+
+# 5. csoport – másold be egyben (max. 10 kifejezés)
+feeder kosár, method kosár, horgász ólom, bojlis ólom, horgász úszó, elektromos kapásjelző, kapásjelző szett, swinger, botállvány, rod pod
+
+# 6. csoport – másold be egyben (max. 10 kifejezés)
+merítőszák, haltartó szák, pontymatrac, horgászszék, horgászágy, horgászsátor, horgászernyő, horgászláda, feeder láda, horgásztáska
+
+# 7. csoport – másold be egyben (max. 10 kifejezés)
+bottáska, horgász ruházat, waders, melles csizma, etetőhajó, horgászcsónak, elektromos csónakmotor, echolot, halradar, horgász fejlámpa
+
+# 8. csoport – másold be egyben (max. 10 kifejezés)
+pontyozó felszerelés, harcsázó felszerelés, csukázó műcsali, süllőző gumihal, feeder felszerelés, pergető felszerelés, horgász webshop, horgászfelszerelés
+

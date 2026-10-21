@@ -1,0 +1,48 @@
+# Negatív kifejezések (ékezetfüggetlen, szókezdet-egyezés; re:<regex> is megengedett)
+# Ezek a relevanciaszűrésben kiesnek, és Google Ads negatív kulcsszóként is használhatók.
+# "bot" más jelentésben
+chatbot
+telegram
+discord
+messenger
+robot
+re:\bbot (keszites|program|letoltes)
+# állás, munka
+állás
+munka
+fizetés
+# ingyenes / kalóz tartalom
+ingyen
+ingyenes
+torrent
+letöltés
+pdf
+apk
+crack
+# játék, szórakozás
+játék
+minecraft
+fortnite
+roblox
+kifestő
+rajz
+vicc
+idézet
+film
+sorozat
+mese
+# egyéb nem vásárlói
+wikipedia
+szótár
+angolul
+jelentése
+# kétértelmű terméknevek más piacokról (Google Ads negatívának is)
+fapellet
+fűtés
+kályha
+kandalló
+kerékpár
+bicikli
+okosóra
+fúrógép
+drog
