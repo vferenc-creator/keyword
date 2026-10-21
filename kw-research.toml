@@ -1,0 +1,80 @@
+# kw-research.toml – magyar horgászpiaci kulcsszókutatás (Google Ads + termékválasztás)
+# Titkos adat (jelszó, token, OAuth JSON) SOHA ne kerüljön ide.
+
+[project]
+name = "horgasz-hu"
+domain = ""                         # saját webshop domain, ha van (még nincs megadva)
+gsc_site = ""                       # Search Console nincs bekötve
+language = "hu"
+country = "HU"
+output_dir = "kw-research"
+
+[brand]
+# Saját márkák: még nincs megadva – a felhasználó tölti ki.
+own = []
+# Konkurens boltok / piacterek / árösszehasonlítók -> navigational (alapértelmezés, pontosítandó)
+competitors = ["decathlon", "emag", "árukereső", "arukereso", "jófogás", "jofogas", "vatera",
+               "temu", "aliexpress", "alza", "shein", "lidl", "aldi", "tesco", "praktiker", "obi"]
+# Gyártói márkák (alapértelmezés: a magyar piacon elterjedt márkák; pontosítandó a forgalmazott körre)
+product_brands = ["shimano", "daiwa", "okuma", "penn", "abu garcia", "mitchell", "ryobi", "dam",
+                  "fox", "korda", "nash", "trakker", "avid carp", "prologic", "gardner", "solar",
+                  "delphin", "mivardi", "carp zoom", "carp expert", "carp academy", "nevis",
+                  "energoteam", "cralusso", "jaxon", "by döme", "haldorádó", "sensas",
+                  "dynamite baits", "mainline", "starbaits", "ccmoore", "top mix", "timár mix",
+                  "benzar mix", "maros mix", "dovit", "matrix", "preston", "guru", "browning",
+                  "korum", "rapala", "savage gear", "berkley", "salmo", "mepps", "westin",
+                  "spro", "cormoran", "gamakatsu", "owner", "sufix", "deeper", "lowrance",
+                  "garmin", "humminbird", "carp spirit", "sänger"]
+
+[google_ads]
+customer_id = ""
+login_customer_id = ""
+config_path = ""
+network = "GOOGLE_SEARCH"
+
+[dataforseo]
+# NEM használjuk (a felhasználó kérésére csak ingyenes adatforrás).
+location_code = 2348
+language_code = "hu"
+device = "mobile"
+max_cost_usd = 0.0
+
+[filters]
+min_volume = 0
+max_words = 10
+exclude = []                        # a negatívák a kw-research/negatives.txt-ben vannak
+
+[intent]
+default_intent = "commercial"       # e-kereskedelmi fejkifejezések módosító nélkül
+modifiers_file = ""
+
+[clustering]
+method = "lexical"                  # SERP-adat nem lesz
+mode = "soft"
+min_shared_urls = 4
+top_n = 10
+lexical_threshold = 0.6
+
+[scoring]
+target_position = 3
+gsc_months = 3
+aio_ctr_penalty = 0.45
+ctr_curve = [0.25, 0.15, 0.10, 0.07, 0.05, 0.04, 0.03, 0.025, 0.02, 0.018]
+striking_distance = [4, 20]
+striking_min_impressions = 50
+striking_bonus = 1.3
+priority_thresholds = [80, 50]
+
+[scoring.aio_probability]
+informational = 0.5
+commercial = 0.15
+transactional = 0.05
+local = 0.05
+navigational = 0.02
+
+[scoring.intent_weights]            # hirdetésre hangolva
+transactional = 1.0
+commercial = 0.9
+informational = 0.2
+local = 0.3
+navigational = 0.1

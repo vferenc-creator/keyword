@@ -1,0 +1,8 @@
+# Kulcsszókutatás: cache és titkos adatok soha ne kerüljenek a repóba
+kw-research/.cache/
+.env
+google-ads.yaml
+client_secret*.json
+*credentials*.json
+*service-account*.json
+__pycache__/
