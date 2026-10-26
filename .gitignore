@@ -6,3 +6,4 @@ client_secret*.json
 *credentials*.json
 *service-account*.json
 __pycache__/
+kw-research/.ac_run*.log
