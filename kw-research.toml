@@ -24,7 +24,11 @@ product_brands = ["shimano", "daiwa", "okuma", "penn", "abu garcia", "mitchell",
                   "benzar mix", "maros mix", "dovit", "matrix", "preston", "guru", "browning",
                   "korum", "rapala", "savage gear", "berkley", "salmo", "mepps", "westin",
                   "spro", "cormoran", "gamakatsu", "owner", "sufix", "deeper", "lowrance",
-                  "garmin", "humminbird", "carp spirit", "sänger"]
+                  "garmin", "humminbird", "carp spirit", "sänger",
+                  # az Autocomplete-ből előkerült márkák (2026-10-26)
+                  "xfish", "walterland", "venom", "yoda", "keen carp", "vampire", "hydra",
+                  "stég", "lucky craft", "anaconda", "kamasaki", "balzer", "nytro", "gunki",
+                  "illex", "quantum", "flytec", "zeck", "kaiwo"]
 
 [google_ads]
 customer_id = ""

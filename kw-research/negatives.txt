@@ -46,3 +46,28 @@ bicikli
 okosóra
 fúrógép
 drog
+# --- Autocomplete relevanciaszűrés (2026-10-26) ---
+# más iparág / más jelentés
+vaderstad
+kopásjelző
+warbler
+sprinkler
+re:\bswinger (club|klub|party)
+re:\bwobbler (szindroma|betegseg|marketing|in marketing|on shelf|in shop|in store|game|albums?|new|activities|offense|on the wharf|and dangler|walk the dog|with price|baby|youtube)
+re:\b(meaning|bedeutung|significa|o que e|que es)\b
+re:\b(jelentese|mit jelent)\b
+re:\bhorgaszbot craft\b
+szindróma
+re:\bvillanto (horgaszto|magazin)
+horgásztó
+re:\bbolji zivot
+re:\bpod and rod
+# idegen nyelvű (német/angol) találatok
+re:\b(angeln|zum angeln|rute|nachts|bestellen|adventskalender|zanderkant|zanderkonig|olands|wobleren)\b
+re:\bwobbler (auf )?zander\b
+re:\bwobbler (blade|blanks?|bait|test|amazon)\b
+re:\b(angolul|nemetul)\b
+# szolgáltatás, nem termékvásárlás
+re:\bjavitas(a)?\b
+re:\bszerviz\b
+bérlés
